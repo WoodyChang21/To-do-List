@@ -1,0 +1,18 @@
+{% extends 'main/base.html' %}
+
+{% block title %} <title>Create New List</title> {% endblock %}
+
+{% block content %}
+<div class="mb-3">
+    <h3>Create New To-Do List</h3>
+</div>
+<form method="post" action="/create/" class="form-group">
+    {% csrf_token %}
+    <div class="input-group mt-2">
+        <div class="input-group-prepend">
+            <button type="submit", name="save" class="btn btn-success">Create New</button>
+        </div>
+        {{form.name}}
+    </div>
+</form>
+{% endblock %}

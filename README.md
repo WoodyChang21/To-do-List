@@ -23,7 +23,7 @@ The user is asked to login first before modifying their to-do list.
 
 
 #### Register
-The user can click the **"RANK"** button to see the overall ranking of the group
+For the first time user, they can click the register button on the side to register a new account
 <img width="1128" alt="image" src="https://user-images.githubusercontent.com/99929453/219260859-a83bf7e0-a52e-4b8b-830a-3c64b2635e72.png">
 
 
